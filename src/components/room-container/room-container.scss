@@ -1,0 +1,25 @@
+.rooms-heading{
+  padding-bottom:20px;
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+}
+.rooms-heading p{
+  color:#4F4F4F;
+  font-size:14px;
+}
+.rooms-container{
+  margin: 32px 0;
+  width: 100%;
+  display:grid;
+  gap:20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 480px) {
+  .rooms-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+  }
+ }
